@@ -17,6 +17,13 @@ body {
   outline: 2px solid tomato;
 }
 
+.container {
+  width: 1200px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 ul {
   list-style: none;
 }
