@@ -13,7 +13,7 @@ body {
 }
 
 /* Временная штука */
-.box {
+.h1 {
   outline: 2px solid tomato;
 }
 
@@ -26,6 +26,8 @@ body {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -85,6 +87,8 @@ h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+  margin-top: 0;
+  margin-bottom: 40px;
 }
 
 .button {
