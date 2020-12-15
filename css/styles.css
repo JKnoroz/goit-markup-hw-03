@@ -17,9 +17,9 @@ body {
   outline: 2px solid tomato;
 }
 
+/* нужен ли тут паддинг? */
 .container {
-  width: 1200px;
-  padding: 15px;
+  width: 1170px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -94,6 +94,9 @@ h1 {
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--accent-color);
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: inline-block;
 }
 
 /* features */
@@ -148,6 +151,10 @@ h1 {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px;
+  display: inline-block;
+  border: none;
 }
 
 .projects-filter button:focus,
