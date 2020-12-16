@@ -12,11 +12,6 @@ body {
   background-color: var(--white-color);
 }
 
-/* Временная штука */
-.h1 {
-  outline: 2px solid tomato;
-}
-
 /* нужен ли тут паддинг? */
 .container {
   width: 1170px;
@@ -36,6 +31,8 @@ a {
 
 h2 {
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 /* navigation */
@@ -78,6 +75,7 @@ header .link {
 .hero {
   text-align: center;
   background-color: #2f303a;
+  padding: 200px 0px;
 }
 
 h1 {
@@ -88,7 +86,7 @@ h1 {
   text-transform: uppercase;
   color: var(--white-color);
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .button {
@@ -107,6 +105,8 @@ h1 {
 
 .features h2 {
   display: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .features p,
@@ -114,15 +114,26 @@ h1 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  margin-top: 0px;
 }
 
 .features p {
   color: var(--secondary-text-color);
+  margin-bottom: 0px;
 }
 
 .features h3 {
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.business {
+  padding: 94px 0px;
+}
+
+.features {
+  margin-bottom: 94px;
 }
 
 /* WeDo */
@@ -135,18 +146,31 @@ h1 {
   letter-spacing: 0.03em;
   text-align: center;
   background-color: #f5f4fa;
+  padding: 94px 0px;
 }
 
 .section-team h3 {
   font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .section-team p {
   color: var(--secondary-text-color);
+  margin-bottom: 30px;
 }
 
 /*Portfolio */
 
+.portfolio {
+  padding: 94px 0px;
+}
+
 /* по рамке 2 пкс вопрос */
+
+.projects-filter {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
 
 .projects-filter button {
   font-family: inherit;
@@ -196,17 +220,24 @@ footer {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  padding: 60px 0px;
 }
 
 footer .logo {
   color: var(--white-color);
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 address p {
   font-style: normal;
   color: var(--white-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .bottom-contacts a {
   color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  margin-top: 9px;
 }
