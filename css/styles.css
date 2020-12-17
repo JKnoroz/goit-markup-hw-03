@@ -37,6 +37,11 @@ h2 {
 
 /* navigation */
 
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -44,6 +49,7 @@ h2 {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--logoblack-color);
+  margin-right: 93px;
 }
 
 .logo span {
@@ -56,18 +62,39 @@ header .link {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: inherit;
+  display: block;
+  padding: 32px 0;
+}
+
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts li + li {
+  margin-left: 50px;
 }
 
 .contacts a {
   color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1;
 }
 
-.site-nav .link.current,
-.site-nav .link:hover,
-.site-nav .link:focus,
+.menu .link.current,
+.menu .link:hover,
+.menu .link:focus,
 .contacts li :hover,
 .contacts li :focus {
   color: var(--accent-color);
+}
+
+.menu {
+  display: flex;
+}
+
+.menu .menu-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 /* hero */
