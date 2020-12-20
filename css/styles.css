@@ -123,6 +123,8 @@ header .link {
 
 /* hero */
 
+/* тут временный паддинг */
+
 .hero {
   text-align: center;
   background-color: #2f303a;
@@ -194,7 +196,7 @@ h1 {
 }
 
 .wedo {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 /* Team */
