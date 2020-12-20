@@ -12,6 +12,11 @@ body {
   background-color: var(--white-color);
 }
 
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -185,18 +190,13 @@ h1 {
   margin-bottom: 10px;
 }
 
-.features {
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
-
 /* WeDo */
 .wedo .item:not(:last-child) {
   margin-right: 30px;
 }
 
 .wedo {
-  padding-bottom: 94px;
+  padding-top: 0px;
 }
 
 /* Team */
@@ -214,7 +214,6 @@ h1 {
 
 .section-team {
   background-color: #f5f4fa;
-  padding: 94px 0px;
   text-align: center;
 }
 .section-title {
@@ -243,11 +242,6 @@ h1 {
 }
 
 /*Portfolio */
-
-.portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .projects-filter .item:not(:last-child) {
   margin-right: 8px;
