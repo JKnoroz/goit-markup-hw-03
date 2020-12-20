@@ -54,6 +54,10 @@ h2 {
   align-items: center;
 }
 
+header {
+  border-bottom: 1px solid #ececec;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -138,6 +142,7 @@ h1 {
   border-radius: 4px;
   padding: 10px 32px;
   display: inline-block;
+  cursor: pointer;
 }
 
 /* features */
@@ -198,6 +203,9 @@ h1 {
 
 .section-team .item {
   background-color: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .section-team {
@@ -208,15 +216,26 @@ h1 {
   background-color: #f5f4fa;
   padding: 94px 0px;
 }
+.section-title {
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 1.17;
+}
 
-.section-team h3 {
+.card-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.card-description h3 {
   font-weight: 500;
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 10px;
 }
-.section-team p {
+.card-description p {
   color: var(--secondary-text-color);
-  margin-bottom: 30px;
+  margin-bottom: 0px;
+  margin-top: 0;
 }
 
 /*Portfolio */
@@ -225,8 +244,6 @@ h1 {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
-/* по рамке 2 пкс вопрос */
 
 .projects-filter .item:not(:last-child) {
   margin-right: 8px;
@@ -250,6 +267,7 @@ h1 {
   padding: 4px 20px;
   display: inline-block;
   border: 2px solid transparent;
+  cursor: pointer;
 }
 
 .projects-filter button:focus,
